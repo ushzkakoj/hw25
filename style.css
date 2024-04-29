@@ -1,0 +1,31 @@
+.div__thumb {
+    position: relative;
+    display: flex;
+    justify-content: center;   
+}
+
+#div-1 {
+    position: relative;
+    background-color: rgb(255, 80, 80);
+    width: 100px;
+    height: 100px;
+}
+
+#div-2 {
+    position: relative;
+    background-color: rgb(65, 65, 238);
+    width: 100px;
+    height: 100px;
+    top: 60px;
+    right: 40px;
+    z-index: 1;
+}
+
+#div-3 {
+    position: relative;
+    background-color: rgb(29, 173, 29);
+    width: 100px;
+    height: 100px;
+    top: 120px;
+    right: 80px;
+}
